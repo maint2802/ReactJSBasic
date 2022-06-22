@@ -1,0 +1,26 @@
+.add-blog-container{
+    h3{
+        margin: 10px;
+    }
+    display: flex;
+    flex-direction:column;
+    // flex-wrap: nowrap;
+    border: solid 1px #ccc;
+    min-height: 200px;
+    width:400px;
+    border-radius:10px;
+    justify-content: center;
+    .add-blog-item{
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 10px;
+        input{
+        padding: 4px;
+        width: 96%; 
+        }
+    }
+    button{
+    width: 100px;
+    margin: 20px;
+    }
+}

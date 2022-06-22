@@ -1,0 +1,57 @@
+
+.btn-add-blog{
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius:4px;
+}
+.blog-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content:center;
+    .blog-single{
+        // max-width: 30%;
+        width: 455px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: left;
+        padding: 8px;
+        padding-bottom: 50px;
+        position: relative;
+        .blog-title{
+        font-size: 24px;
+        font-weight: 500;
+        display: flex;
+        justify-content:space-between
+        }
+        .blog-body{
+    
+        }
+        button{
+            position: absolute;
+            bottom: 8px;
+            border-radius: 4px;
+        }
+    }
+    
+}
+
+.blog-detail{
+    border: 1px solid #ccc;
+    border-radius:10px;
+    margin: 0 20px;
+    .blog-detail-id{
+
+    }
+    .blog-title{
+
+    }
+    .blog-body{
+        
+    }
+    .blog-back{
+        cursor: pointer;
+    }
+}
